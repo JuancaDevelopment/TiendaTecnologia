@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header{
+    background: rgb(0, 195, 255);
+    /* height: 400px; */
+    width: 100%;
+}
+
+/*Utilizando Flex en categoria Todos los productos*/
+.container{
+    background-color: aliceblue;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+
+    
+}
+
+
+
+.categorias{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-principal-h3{
+    border: 3px solid burlywood;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.section-quienes-somos{
+    font-size: 20px;
+    color:blue;
+}
+
+.titulo-categorias{
+    color:chocolate;
+}
+
+
+/*Utilizando Pseudoclase Hover*/
+
+a:hover{
+   font-weight: 700;
+   padding: 15px;
+   background-color: black;
+   color: white;
+}
+
+.section-quienes-somos:hover {
+    color:rgb(0, 195, 255);
+    cursor: pointer;
+}
+
+/*Media Queries*/
+@media (min-width: 478px) {
+    header {
+        background-color: red;
+    }
+
+    .container{
+        background-color: cadetblue;
+    }
+
+    .footer{
+        background-color: coral;
+    }
+
+    .link-mercadolibre{
+        background-color: darkorange;
+    }
+
+    
+}
